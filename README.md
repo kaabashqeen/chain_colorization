@@ -23,16 +23,16 @@ git clone https://github.com/kaabashqeen/chain_colorization_images.git
 ```
 - Rename the "chain_colorization_images" folder to "images"
 
+### Run
+
 - Use python 2.7, and caffe_p27
 ```
 source activate python2
 source activate caffe_p27
 ```
-
 - Run jupyter notebook
 ```
 jupyter notebook
 ```
-
-- Open "chain_colorization.pynb"
-- Run the first line to setup the image files and the pretrained caffe model
+- "chain_colorization.pynb" implements the algorithm for chain_colorization on images. In the images file, there are three images for a picture: a "-inputs.png" picture, which is the input (greyscaled) picture,  a "-outputs.png" picture, which is the output from our trained cDCGAN model (Pix2Pix), and a "-targets.png" picture, which is what the test image actually looks like with color. You can change the number of hints you use to produce the image, change the thresholds to find the "best" pixels that are used as hints, and change the "nearest pixel" threshold to find closer pixels to previously chosen pixels.
+- "output_results.ipynb" produces the output strips of outputs to compare and contrast the effectiveness of our tests.
