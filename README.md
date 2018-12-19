@@ -37,7 +37,7 @@ jupyter notebook
 - "chain_colorization.pynb" implements the algorithm for chain_colorization on images. In the images file, there are three images for a picture: a "-inputs.png" picture, which is the input (greyscaled) picture,  a "-outputs.png" picture, which is the output from our trained cDCGAN model (Pix2Pix), and a "-targets.png" picture, which is what the test image actually looks like with color. You can change the number of hints you use to produce the image, change the thresholds to find the "best" pixels that are used as hints, and change the "nearest pixel" threshold to find closer pixels to previously chosen pixels.
 - "output_results.ipynb" produces the output strips of outputs to compare and contrast the effectiveness of our tests.
 
-###References
+### References
 Code setup for the production and use of the hint model
 ```
 @article{zhang2017real,
