@@ -1,5 +1,8 @@
 # chain_colorization
 
+### Please see the associated article
+- https://link.medium.com/d7xuctJnjU
+
 ### Requirements
 - For AWS (recommended), use the "Amazon Deep Learning AMI (Ubuntu)" EC2 Instance
 - Linux or OSX
