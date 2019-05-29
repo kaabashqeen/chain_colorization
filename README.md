@@ -1,4 +1,4 @@
-# Pix2Pix CDCGAN + IDC CNN Hint Chain Colorization
+# Pix2Pix CDCGAN + Hint CNN Chain Colorization
 
 ### Please see the associated article
 - https://link.medium.com/d7xuctJnjU
